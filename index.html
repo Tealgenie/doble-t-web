@@ -1,0 +1,89 @@
+<html>'
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="Autores" content="width=device-width, initial-scale=1.0">
+        <title>DOBLE T RADIO | BY DOMINICAN INTERNET GROUP</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="slider">
+            <div class="slides">
+
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+
+
+                <div class="slide first">
+                    <img src="Banner.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="promo1.jpeg" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="whats.jpeg" alt="">
+                </div>
+
+                <div class="navigation_auto">
+
+                <div class="auto-btn1"> </div>
+                <div class="auto-btn2"> </div>
+                <div class="auto-btn3"> </div>
+
+                    
+                </div>
+
+
+            </div>
+
+            <div class="navigation_manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+
+        </div>
+
+
+
+        <iframe height="300" frameborder="0" allowfullscreen="" allow-same-origin="" allow-scripts="" src="https://dominicanplayers.com/audio-player/1556/5/0" name="dbr1" style="border: 1px solid #000000; position: absolute; top: 80%; left: 15%;">
+        </iframe>
+
+        <iframe width="600" height="100" frameborder="0" allowfullscreen="" allow-same-origin="" allow-scripts="" src="https://dominicanplayers.com/audio-player/1556/1/0" name="dtr2" style="border: 1px solid #000000; position: absolute; top: 105%; left: 50%;">
+        </iframe>
+
+
+        <div class="entrybox" style="position: absolute; top: 130%; background-color: black; border-color: black; height: 12%;"> 
+            
+            <img src="logodominican.png" alt="" style="position: absolute; top: 20%; left: 8%;">
+
+            <h1 style="color: white; font-size: 75%; width: 60%; font-family: Arial, Helvetica, sans-serif; position: absolute; left: 25%; top: 28%;"> 
+            © Copyright Jose Manuel Perez Merette. All Rights Reserved. Doble T Radio is a register mark of Jose Manuel Perez Merette Power By: DOMINICAN INTERNET GROUP™ Division of VollEvents Mgm Group VollEvents Mgm Group ™/ Dominican Internet Group™ are register mark of Rudy Morel </h1>
+        
+        </div>
+
+
+        <div class = "entrybox">
+    
+            <img src="logo.png" alt="" height="50%"; style="position: absolute; left: 1% ; top: 25%;">
+    
+        </div>
+ 
+        <script>
+            var counter = 1;
+            setInterval(function(){
+                document.getElementById("radio" + counter).checked = true;
+                counter++;
+                if (counter > 3){
+                    counter = 1
+                }
+            
+            }, 6000)
+
+        </script>
+
+    </body>
